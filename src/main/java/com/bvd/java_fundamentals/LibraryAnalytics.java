@@ -63,5 +63,7 @@ public class LibraryAnalytics {
         System.out.println("Members with genre diversity (>=3 genres): " + membersWithGenreDiversity(validLoans, 3));
         System.out.println("First book containing 'Dune': " + findFirstBookContaining(validLoans, "Dune"));
         System.out.println("Is book present: 'Harry Potter': " + isBookPresent(validLoans, "Harry Potter"));
+
+        System.out.println(LibraryUtil.loansByGenre(validLoans));
     }
 }
